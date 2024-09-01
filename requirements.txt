@@ -1,0 +1,3 @@
+requests
+python-dateutil
+-e git+https://github.com/kobotoolbox/formpack.git@451df4cd2a0d614be69a3b3309259c67369f7efb#egg=formpack

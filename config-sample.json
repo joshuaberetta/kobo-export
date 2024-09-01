@@ -1,0 +1,18 @@
+{
+    "kf_url": "https://kf.kobotoolbox.org",
+    "token": "",
+    "asset_uid": "",
+    "limit": 10000,
+    "versions": [],
+    "options": {
+        "group_sep": "/",
+        "multiple_select": "both",
+        "lang": null,
+        "hierarchy_in_labels": false,
+        "force_index": true,
+        "tag_cols_for_header": ["hxl"],
+        "filter_fields": [],
+        "xls_types_as_text": false,
+        "include_media_url": true
+    }
+}
