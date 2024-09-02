@@ -8,6 +8,10 @@ _Note that this is currently under early development and will likely break very 
 
 1. Clone this repo locally.
 
+```bash
+git clone https://github.com/joshuaberetta/kobo-export.git
+```
+
 2. Create virtual environment and install python requirements.
 
 ```bash
@@ -16,9 +20,9 @@ pip3 install -r requirements.txt
 ```
 
 3. Copy the `config-sample.json` file to `config.json` and enter your project details:
-    - `limit`: Number of submissions included in each request.
-    - `versions`: If `[]` then all versions will be included, otherwise specify a list of version UIDs and the output will include only the submissions that were collected with those versions.
-    - `options`: Export options that are configurable through the UI.
+    - `limit`: Number of submissions included in each page of the response -- reduce this for large surveys or and/or slow internet connections.
+    - `versions`: If set to `[]`, then all versions will be included, otherwise specify a list of version UIDs and the output will include only the submissions that were collected with those versions.
+    - `options`: Various export options that are normally available through the UI.
 
 **Example**
 
