@@ -109,14 +109,14 @@ def main():
         params=get_params(config['limit']),
         headers=get_headers(config['token'])
     )
-    # breakpoint()
+
     asset_name, asset_versions = get_asset_versions(config)
     pack = FormPack(
         versions=asset_versions,
         title=asset_name,
         id_string=config['asset_uid']
     )
-    # breakpoint()
+
     options = {
         **config['options'],
         'versions': pack.versions.keys()
